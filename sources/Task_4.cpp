@@ -2,8 +2,8 @@
 
 void sort(std::vector<float>& vec){
 
-  for(int i =0;i<vec.size();i++){
-    for (int j = i+1; j<vec.size();j++){
+  for(int i =0;i<(int)vec.size();i++){
+    for (int j = i+1; j<(int)vec.size();j++){
       if (vec[i]>vec[j]){
         int buf;
         buf = vec[i];

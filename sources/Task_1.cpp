@@ -3,7 +3,7 @@
 float mean(const std::vector<float>vec){
   float sred;
   if (vec.size() != 0) {
-    for (int i = 0; i < vec.size(); i++) {
+    for (int i = 0; i < (int) vec.size(); i++) {
       sred += vec[i];
     }
     return sred/vec.size();

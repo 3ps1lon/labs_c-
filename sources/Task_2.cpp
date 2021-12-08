@@ -8,7 +8,7 @@ std::pair<float, float> minMax(const std::vector<float>& vec)
   if (vec.size() != 0){
     max_val = vec[0];
     min_val = vec[0];
-    for (int i = 0; i<vec.size();i++) {
+    for (int i = 0; i<(int)vec.size();i++) {
       if (max_val < vec[i]){
         max_val = vec[i];
       }
