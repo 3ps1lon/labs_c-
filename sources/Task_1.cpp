@@ -8,7 +8,8 @@ float mean(const std::vector<float>vec){
     }
     return sred/vec.size();
   }
-  else{
+  else
+  {
     return 0;
   }
 }
