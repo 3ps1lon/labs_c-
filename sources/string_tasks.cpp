@@ -48,8 +48,7 @@ void longest_shortest(const std::string & name_one,
 
 // Task 8.
 std::string sub_str(const std::string & word, int m, int n) {
-std::string res;
-
+const std::string res;
   for (int i = m; i <= n && i < word.size(); i++) {
     res += word[i];
   }
@@ -80,7 +79,7 @@ int percent_of_a(const std::string & word) {
   double co;
   co = 0;
 
-  for (char i: word) {
+  for (char i : word) {
     if (i == 'a') {
       co++;
     }
