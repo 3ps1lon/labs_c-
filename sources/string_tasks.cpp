@@ -25,7 +25,6 @@ void longest_shortest(const std::string & name_one,
   const std::string & name_two,
     const std::string & name_three, std::string & the_longest,
       std::string & the_shortest) {
-
   if ((name_one > name_two) &&(name_two > name_three)) {
     the_longest = name_one;
     the_shortest = name_three;
@@ -49,7 +48,6 @@ void longest_shortest(const std::string & name_one,
 
 // Task 8.
 std::string sub_str(const std::string & word, int m, int n) {
-
 std::string res;
 
   for (int i = m; i <= n && i < word.size(); i++) {
