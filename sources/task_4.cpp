@@ -5,7 +5,7 @@
 // Task 4.
 void remove_negative(std::vector < int > & input) {
   int k = 0;
-  for (int & i: input) {
+  for (int & i : input) {
     if (i < 0) {
       input.erase(input.begin() + k);
       break;
@@ -18,7 +18,7 @@ void remove_last_even(std::vector < int > & input) {
   int k = 0;
   int d = 0;
   int tr = 0;
-  for (int & i: input) {
+  for (int & i : input) {
     if (i % 2 == 0) {
       d = k;
       tr = 1;
@@ -29,5 +29,4 @@ void remove_last_even(std::vector < int > & input) {
   if (tr == 1) {
     input.erase(input.begin() + d);
   }
-
 }
