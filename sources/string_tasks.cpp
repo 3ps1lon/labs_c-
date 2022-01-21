@@ -26,32 +26,31 @@ void longest_shortest(const std::string & name_one,
     const std::string & name_three, std::string & the_longest,
       std::string & the_shortest) {
 
-  if ((name_one > name_two) and(name_two > name_three)) {
+  if ((name_one > name_two) &&(name_two > name_three)) {
     the_longest = name_one;
     the_shortest = name_three;
-  } else if ((name_one > name_two) and(name_two < name_three)) {
+  } else if ((name_one > name_two) &&(name_two < name_three)) {
     the_longest = name_one;
     the_shortest = name_two;
-  } else if ((name_one < name_two) and(name_two < name_three)) {
+  } else if ((name_one < name_two) &&(name_two < name_three)) {
     the_longest = name_three;
     the_shortest = name_one;
-  } else if ((name_one > name_two) and(name_one < name_three)) {
+  } else if ((name_one > name_two) &&(name_one < name_three)) {
     the_longest = name_three;
     the_shortest = name_two;
-  } else if ((name_one < name_two) and(name_one > name_three)) {
+  } else if ((name_one < name_two) &&(name_one > name_three)) {
     the_longest = name_two;
     the_shortest = name_three;
-  } else if ((name_three < name_two) and(name_one < name_three)) {
+  } else if ((name_three < name_two) &&(name_one < name_three)) {
     the_longest = name_two;
     the_shortest = name_one;
   }
-
 }
 
 // Task 8.
 std::string sub_str(const std::string & word, int m, int n) {
 
-  std::string res;
+std::string res;
 
   for (int i = m; i <= n && i < word.size(); i++) {
     res += word[i];
@@ -61,7 +60,6 @@ std::string sub_str(const std::string & word, int m, int n) {
   } else {
     return "";
   }
-
 }
 
 // Task 9.
