@@ -6,7 +6,7 @@
 int sum(const std::vector < int > & input) {
   int su = 0;
 
-  for (int i: input) {
+  for (int i : input) {
     su += i;
   }
 
@@ -16,7 +16,7 @@ int sum(const std::vector < int > & input) {
 int square_sum(const std::vector < int > & input) {
   int su = 0;
 
-  for (int i: input) {
+  for (int i : input) {
     su += i * i;
   }
 
@@ -42,11 +42,10 @@ int sum_k(const std::vector < int > & input, int k1, int k2) {
 }
 
 int mean(const std::vector < int > & input) {
-
   int k = 0;
   int su = 0;
 
-  for (int i: input) {
+  for (int i : input) {
     su += i;
     k++;
   }
