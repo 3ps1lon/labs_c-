@@ -3,7 +3,7 @@
 set -e
 
 declare -r FILTER=-build/c++11,-runtime/references,\
--whitespace/braces,-whitespace/indent,-whitespace/comments,-build/include_order,-runtime/string
+-whitespace/braces,-whitespace/indent,-whitespace/comments,-build/include_order,-runtime/string,-build/header_guard
 
 find ./include/ ./scripts/ ./sources/ -name "*.cpp" -or -name "*.hpp" -or -name ".h" | xargs cpplint --filter=$FILTER
 
