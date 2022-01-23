@@ -1,5 +1,6 @@
 #include <vector>
 #include <string>
+#include <numeric>
 //Task 1
 float mean(const std::vector<float> vec);
 
