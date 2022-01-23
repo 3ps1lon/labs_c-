@@ -48,7 +48,7 @@ void longest_shortest(const std::string & name_one,
 
 // Task 8.
 std::string sub_str(const std::string & word, int m, int n) {
-global std::string res;
+std::string res;
   for (int i = m; i <= n && i < word.size(); i++) {
     res += word[i];
   }
