@@ -19,6 +19,6 @@ std::pair<float, float> minMax(const std::vector<float>& vec)
     return std::pair <float, float> (min_val,max_val);
   }
   else{
-    return std::pair <float, float> ( std::numeric_limits::min(), std::numeric_limits::max());
+    return std::pair <float, float> ( std::numeric_limits<float>::min(), std::numeric_limits<float>::max());
   }
 }
