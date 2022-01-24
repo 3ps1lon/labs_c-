@@ -7,7 +7,7 @@ std::string replace(const std::string& str,
   res = str;
   sdvig = old.length();
   while (res.find(old) != std::string::npos){
-    res.replace(res.find(old),sdvig,new_string);
+    res.replace(res.find(old), sdvig, new_string);
   }
   return res;
 }
