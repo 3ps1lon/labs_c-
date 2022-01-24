@@ -11,4 +11,3 @@ float mean(const std::vector<float>vec){
     return 0;
   }
 }
-         
