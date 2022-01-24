@@ -9,7 +9,7 @@ float argmax(const std::vector<float>& vec){
   } else {
     max_i = 0;
     max_val = vec[0];
-    for(int i = 0;i < n; i++){
+    for (int i = 0; i < n; i++){
       if (vec[i] > max_val){
         max_val = vec[i];
         max_i = i;
