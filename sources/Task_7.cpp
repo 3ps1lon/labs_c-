@@ -12,7 +12,6 @@ std::vector<std::string> split(const std::string& str, char sep){
     if (str[i] == sep){
       k++;
     }
-
   }
   if (str.length() == 0 || k == static_cast<int> (str.length())){
     res = {};
